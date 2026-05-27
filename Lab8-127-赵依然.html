@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab8-127-赵依然 - 烟台理工学院魅力校园</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            padding: 50px 0;
+        }
+
+        .theme {
+            width: 1000px;
+            margin: 50px auto;
+        }
+
+        .theme-title {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            letter-spacing: 2px;
+        }
+
+        .swiper {
+            width: 1000px;
+            height: 450px;
+            overflow: hidden;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .swiper-wrap {
+            display: flex;
+            height: 100%;
+            transition: transform 0.5s ease;
+        }
+
+        .swiper-item {
+            width: 1000px;
+            height: 450px;
+            flex-shrink: 0;
+        }
+
+        .swiper-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 第一行 -->
+    <div class="theme">
+        <div class="theme-title">🏫 魅力校园·青春光影</div>
+        <div class="swiper" id="s1">
+            <div class="swiper-wrap"></div>
+        </div>
+    </div>
+
+    <!-- 第二行 -->
+    <div class="theme">
+        <div class="theme-title">⚙️ 活力理工·创新未来</div>
+        <div class="swiper" id="s2">
+            <div class="swiper-wrap"></div>
+        </div>
+    </div>
+
+    <!-- 第三行 -->
+    <div class="theme">
+        <div class="theme-title">🌊 仙境海岸·鲜美烟台</div>
+        <div class="swiper" id="s3">
+            <div class="swiper-wrap"></div>
+        </div>
+    </div>
+<script src="lab10-127.js"></script>
+</body>
+</html>
